@@ -1,0 +1,160 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100..900&display=swap');
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100%;
+    /* width: 100vw; */
+    /* overflow: hidden; */
+}
+
+.main{
+   
+   overflow: hidden;
+}
+
+
+
+.hero-section{
+height: 100vh;
+ background-image: url(https://devimages-cdn.apple.com/wwdc-services/articles/images/75828E8C-905D-4517-94F8-7799B785D5C7/2048.jpeg);
+ background-size: cover;
+ background-repeat: no-repeat;
+ 
+
+}
+
+.textContainer{
+   
+    /* background-color: white; */
+    position: absolute;
+    top: 100px;
+    left: 20%;
+    color: white;
+
+}
+
+.textContainer h2{
+    font-size: 3rem;
+}
+.textContainer span{
+    font-size: 1.5rem;
+}
+.textContainer h1{
+    font-size: 3rem;
+}
+
+.black-section{
+
+  height: 30vh;
+  background-color: rgba(0, 0, 0, 0.808);
+  color: white;
+
+
+  
+
+}
+
+.black-section h1{
+        position: relative;
+       left: 20%;
+       top: 10%;
+       font-size: 3.5rem;
+       
+}
+
+.black-section span{
+    font-size: 7rem ;
+    color: white;
+}
+
+.cardContainer-section{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%; */
+    background-color: white;
+    margin-top: 90px;
+}
+
+.cardbox{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    /* height: 400px; */
+    /* background-color: yellow; */
+}
+.card{
+  
+    width: 300px;
+    height: 430px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align:left;
+    margin: 10px;
+    background-color: white;
+    /* font-family: "Rubik", sans-serif; */
+    
+    /* font-family: "Truculenta", sans-serif; */
+    font-family: "Open Sans", sans-serif;
+    
+
+
+}
+.cardImg img{
+    width: 300px;
+}
+
+.m1{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.footer{
+ width: 100%;
+/* height: 300px; */
+display: flex;
+background-color: yellow;
+margin-top: 30px;
+
+}
+
+.sec1{
+    width: 700px;
+    height: 300px;
+    background-color: green;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
+}
+.sec2{
+    width: 700px;
+    height: 300px;
+    background-color: brown;
+}
+
+.h1{
+    font-size: 1.4rem;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.p{
+    margin-left: 40px;
+
+}
